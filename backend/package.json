@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "description": "explicacion fetch",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "pio": "nodemon --env-file=.pio.env index.js",
     "home": "nodemon --env-file=.home.env index.js"
   },
+  "keywords": [
+    "socket.io",
+    "express",
+    "nextjs",
+    "backend"
+  ],
   "author": "Martin Rivas",
   "license": "ISC",
   "dependencies": {
@@ -14,6 +21,13 @@
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "mysql2": "^3.9.7",
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "express-session": "^1.18.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "pkg": "^5.8.1"
   }
 }
+
